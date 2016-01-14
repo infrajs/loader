@@ -2,7 +2,7 @@
 (function(){
 	//Используется в onsubmit.js
 	infra.loader={
-		src:'-infra/ajax-loader.gif',
+		src:'-loader/ajax-loader.gif',
 		hide:function(){
 			if(!this.img)return;
 			this.img.style.display='none';

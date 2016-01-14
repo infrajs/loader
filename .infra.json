@@ -1,0 +1,4 @@
+{
+	"js":["loader.js","infra.js"],
+	"dependencies":"event"
+}
