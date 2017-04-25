@@ -1,9 +1,9 @@
-Event.handler('Infrajs.oninit', function () {
+Event.handler('Controller.oninit', function () {
 	//loader
-	infra.loader.show();
+	Loader.show();
 }, 'loader');
 
-Event.handler('Infrajs.onshow', function () {
+Event.handler('Controller.onshow', function () {
 	//loader
-	infra.loader.hide();
+	Loader.hide();
 }, 'loader');

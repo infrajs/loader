@@ -1,7 +1,7 @@
 //Обработка loader
 (function(){
 	//Используется в onsubmit.js
-	infra.loader={
+	Loader = {
 		src:'/-loader/ajax-loader.gif',
 		hide:function(){
 			if(!this.img)return;
@@ -47,4 +47,5 @@
 			this.img.style.top=top+'px';
 		}
 	}
+	infra.loaer = Loader;
 })();
